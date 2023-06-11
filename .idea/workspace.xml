@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c314f59e-9c11-4c3f-9d60-1f5fc722941c" name="Changes" comment="Enunciats dels exercicis de testing">
-      <change afterPath="$PROJECT_DIR$/src/n1Exercici1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/n1Exercici1/Mes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/n1Exercici2/CalculoDni.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/n1Exercici2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/n1Exercici1/MesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/n1Exercici2/CalculoDniTest.java" afterDir="false" />
+    <list default="true" id="c314f59e-9c11-4c3f-9d60-1f5fc722941c" name="Changes" comment="Nivell 1 Exercici 2 fet">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/n1Exercici3/ClaseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/n1Exercici3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/n1Exercici3/ClaseArrayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sprint1Tasca04Testing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Sprint1Tasca04Testing.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/n1Exercici2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/n1Exercici2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,17 +63,31 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="n1Exercici3" />
       <recent name="n1Exercici2" />
       <recent name="n1Exercici1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.ClaseArrayTest.afegirNumberToArray">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="n1Exercici2.Main" />
       <module name="Sprint1Tasca04Testing" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="n1Exercici2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="n1Exercici3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="n1Exercici3.Main" />
+      <module name="Sprint1Tasca04Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="n1Exercici3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,32 +126,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClaseArrayTest.afegirNumberToArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sprint1Tasca04Testing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="n1Exercici1.*" />
+          <option name="PATTERN" value="n1Exercici3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="n1Exercici1" />
-      <option name="MAIN_CLASS_NAME" value="n1Exercici1.MesTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MesTest.validar12PosicionsMesos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Sprint1Tasca04Testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="n1Exercici1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="n1Exercici1" />
-      <option name="MAIN_CLASS_NAME" value="n1Exercici1.MesTest" />
-      <option name="METHOD_NAME" value="validar12PosicionsMesos" />
+      <option name="PACKAGE_NAME" value="n1Exercici3" />
+      <option name="MAIN_CLASS_NAME" value="n1Exercici3.ClaseArrayTest" />
+      <option name="METHOD_NAME" value="afegirNumberToArray" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ClaseArrayTest.afegirNumberToArray" />
+        <item itemvalue="Application.n1Exercici3.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.CalculoDniTest.calcularDni" />
         <item itemvalue="JUnit.CalculoDniTest" />
-        <item itemvalue="JUnit.MesTest" />
-        <item itemvalue="JUnit.MesTest.validar12PosicionsMesos" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +161,7 @@
       <option name="presentableId" value="Default" />
       <updated>1686345330703</updated>
       <workItem from="1686345332474" duration="3412000" />
-      <workItem from="1686353540449" duration="9952000" />
+      <workItem from="1686353540449" duration="11424000" />
     </task>
     <task id="LOCAL-00001" summary="Enunciats dels exercicis de testing">
       <created>1686345811532</created>
@@ -173,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686345811532</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Nivell 1 Exercici 2 fet">
+      <created>1686508488668</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686508488668</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,20 +196,21 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Enunciats dels exercicis de testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Enunciats dels exercicis de testing" />
+    <MESSAGE value="Nivell 1 Exercici 2 fet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nivell 1 Exercici 2 fet" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/test/n1Exercici2/CalculoDniTest.java</url>
-          <line>68</line>
-          <option name="timeStamp" value="7" />
+          <url>file://$PROJECT_DIR$/src/n1Exercici2/Main.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/n1Exercici2/Main.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="10" />
+          <url>file://$PROJECT_DIR$/src/n1Exercici3/ClaseArray.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
